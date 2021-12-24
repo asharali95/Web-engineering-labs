@@ -1,0 +1,38 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "task1-transpile": "@babel ./Lab-task/Student.js ./Lab-task/ExecutiveStudent.js ./Lab-task/RegularStudent.js ./Lab-task/StudentTesting.js --out-dir ./Task-outputs/task1/",
+    "task1test-transpile": "@babel ./Lab-task/Student.js ./Lab-task/RegularStudent.js ./Lab-task/testing.js ./Home-task/University.js --out-dir ./Task-outputs/task1-tests/",
+    "task1": "yarn run task1-transpile && node ./Task-outputs/task1/StudentTesting.js",
+    "task1-test": "yarn run task1test-transpile && node ./Task-outputs/task1-tests/testing.js",
+    "hometask1-transpile": "@babel ./Home-task/Course.js ./Home-task/Student.js ./Home-task/University.js ./Home-task/StudentTest.js --out-dir ./Hometask-outputs/hometask1/",
+    "hometask1": "yarn run hometask1-transpile && node ./Hometask-outputs/hometask1/StudentTest.js",
+    "hometask-test-transpile": "@babel ./Home-task/Course.js ./Home-task/Student.js ./Home-task/University.js ./Home-task/StudentTest.js ./Home-task/testing.js --out-dir ./HomeTask-outputs/hometask-tests/",
+    "hometask-test": "yarn run hometask-test-transpile && node ./HomeTask-outputs/hometask-tests/testing.js",
+    "manualtask-transpile": "@babel ./manual-task/database.js ./manual-task/http.js ./manual-task/logging.js ./manual-task/index.js --out-dir ./manual-task-output/",
+    "manualtask": "yarn run manualtask-transpile && node ./manual-task-output/index.js",
+    "testtask": "@babel ./test-task/Department.js ./test-task/CS.js ./test-task/IT.js ./test-task/database.js ./test-task/index.js --out-dir ./test-task/output/",
+    "test-task":"yarn run testtask && node ./test-task/output/index.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "axios": "^0.24.0",
+    "logging": "^3.3.0",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2",
+    "sqlite3-offline": "^4.3.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "devDependencies": {
+    "simple-assert-ok": "^1.0.4"
+  }
+}

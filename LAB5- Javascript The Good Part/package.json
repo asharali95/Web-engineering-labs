@@ -1,0 +1,20 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "transpile": "@babel ./lab5.js --out-dir ./output/",
+    "lab5": "yarn run transpile && node ./output/lab5.js"
+  },
+  "dependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/cli": "7.16.0",
+    "@babel/preset-env": "7.16.4"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "lab6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "7.16.0",
+    "@babel/preset-env": "7.16.4",
+    "@babel/core": "7.16.0"
+  },
+  "scripts": {
+    "ESNext-transpile":"@babel ./esnext.js --out-dir ./output/",
+    "esnext":"yarn run ESNext-transpile && node ./output/esnext.js",
+    "ts-transpile":"tsc ./script.ts",
+    "ts-script":"yarn run ts-transpile && node ./script.js"
+  },
+  "babel":{
+    "presets":[
+      "@babel/preset-env"
+    ]
+  }
+}
