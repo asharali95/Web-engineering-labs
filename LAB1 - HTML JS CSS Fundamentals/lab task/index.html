@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>lab task</title>
+  </head>
+  <body>
+    <div class="container flex">
+      <h1>Lab 01 -HTML CSS Fundamentals</h1>
+      <div class="labtask-01 labtask">
+        <div class="head">
+          <h2>JS building blocks - <span class="span">Variables</span></h2>
+        </div>
+        <div class="content">
+          <div
+            id="log1-a"
+            style="background-color: white; padding: 10px; margin-bottom: 5px"
+          ></div>
+          <div
+            id="log1-b"
+            style="background-color: white; padding: 10px; margin-bottom: 5px"
+          ></div>
+        </div>
+      </div>
+      <!-- ------------------------------------------------------ -->
+      <div class="labtask-02 labtask">
+        <div class="head">
+          <h2>
+            JS building blocks - <span class="span">Loops and Arrays</span>
+          </h2>
+        </div>
+        <div class="content">
+          <input id="loginId" type="text" placeholder="Login ID" />
+          <input id="password" type="password" placeholder="Password" />
+          <input type="checkbox" name="" id="rememberMe" /> Remember Me
+          <h2 style="text-align: center">Console Outputs</h2>
+          <div
+            id="log2"
+            style="background-color: white; padding: 10px; margin-bottom: 5px"
+          ></div>
+          <div
+            id="log2b"
+            style="
+              height: 200px;
+              overflow-y: scroll;
+              background-color: white;
+              padding: 10px;
+            "
+          ></div>
+        </div>
+      </div>
+      <!-- ------------------------------------------------------ -->
+
+      <div class="labtask-03 labtask">
+        <div class="head">
+          <h2>
+            JS building blocks - <span class="span">Functions and Objects</span>
+          </h2>
+        </div>
+        <div class="content">
+          <h2 style="text-align: center">Console Outputs</h2>
+          <div
+            id="log3"
+            style="background-color: white; padding: 10px; margin-bottom: 5px"
+          ></div>
+        </div>
+      </div>
+      <!-- ------------------------------------------------------ -->
+
+      <div class="labtask-04 labtask">
+        <div class="head">
+          <h2>JS building blocks - <span class="span">Events</span></h2>
+        </div>
+        <div class="content">
+          <input
+            type="”text”"
+            placeholder="Enter any text"
+            some
+            value”
+            onchange="valueIsChanged(this)"
+          />
+          <input
+            type="button"
+            value="Log"
+            onclick="logCurrentDateTime()"
+            style="
+              background-color: tomato;
+              color: white;
+              padding: 5px 20px;
+              cursor: pointer;
+            "
+          />
+          <h2 style="text-align: center">Console Outputs</h2>
+          <div
+            id="log4"
+            style="background-color: white; padding: 10px; margin-bottom: 5px"
+          ></div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------ -->
+
+      <div class="labtask-05 labtask">
+        <div class="head">
+          <h2>
+            JS building blocks -
+            <span class="span">document structure using elements</span>
+          </h2>
+        </div>
+        <div class="content">
+          <h1>Welcome to Sir Syed University of Engineering and Technology</h1>
+          <h2>With state-of-the-art labs</h2>
+          <h3>And best faculty available in the country</h3>
+
+          <div class="content-block introduction">
+            <h3>Introduction</h3>
+            <p class="welcome">
+              <img src="../assets/ssuet.jpg" alt="" width="250px" />
+              Sir Syed University of Engineering and Technology, founded in
+              1993, is one of the best universities operating in Pakistan and is
+              known for its outstanding contribution towards polishing the
+              students as to be ready for serving in the IT industry and at the
+              same time focus on the new and emerging technology to be at the
+              disposal of the students acquiring the expertise to be used in the
+              IT sector
+            </p>
+          </div>
+          <div class="content-block faculty">
+            <h3>Faculty</h3>
+            <table>
+              <thead>
+                <th>Name</th>
+                <th>Qualification</th>
+                <th>Year of Joining</th>
+                <th>Visiting Hours</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Teacher1</td>
+                  <td>phD</td>
+                  <td>2015</td>
+                  <td>08:00AM - 01:00PM</td>
+                </tr>
+                <tr>
+                  <td>Teacher2</td>
+                  <td>phD</td>
+                  <td>2010</td>
+                  <td>09:30AM - 02:30PM</td>
+                </tr>
+                <tr>
+                  <td>Teacher3</td>
+                  <td>Masters</td>
+                  <td>2012</td>
+                  <td>10:00AM - 03:00PM</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="content-block course">
+            <h3>Courses</h3>
+            <ul>
+              <li><a href="JS.html">Javascript</a></li>
+              <li><a href="HTML.html">HTML</a></li>
+              <li><a href="CSS.html">CSS</a></li>
+              <li><a href="SW.html">Service Workers</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------------------ -->
+
+      <div class="labtask-06 labtask">
+        <div class="head">
+          <h2>
+            JS building blocks - <span class="span">Creating Style rules</span>
+          </h2>
+        </div>
+        <div class="content">
+          <h1>Welcome to Sir Syed University of Engineering and Technology</h1>
+          <h2>With state-of-the-art labs</h2>
+          <h3>And best faculty available in the country</h3>
+
+          <div class="content-block introduction-2">
+            <h3>Introduction</h3>
+            <div class="welcome flex" style="flex-direction: row !important; text-align: start !important;">
+              <img src="../assets/ssuet.jpg" alt="" width="250px" />
+              <p style="padding-left: 10px;">
+                Sir Syed University of Engineering and Technology, founded in
+                1993, is one of the best universities operating in Pakistan and
+                is known for its outstanding contribution towards polishing the
+                students as to be ready for serving in the IT industry and at
+                the same time focus on the new and emerging technology to be at
+                the disposal of the students acquiring the expertise to be used
+                in the IT sector
+              </p>
+            </div>
+          </div>
+          <div class="content-block faculty-2">
+            <h3>Faculty</h3>
+            <table class="table-2">
+              <thead>
+                <th>Name</th>
+                <th>Qualification</th>
+                <th>Year of Joining</th>
+                <th>Visiting Hours</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Teacher1</td>
+                  <td>phD</td>
+                  <td>2015</td>
+                  <td>08:00AM - 01:00PM</td>
+                </tr>
+                <tr>
+                  <td>Teacher2</td>
+                  <td>phD</td>
+                  <td>2010</td>
+                  <td>09:30AM - 02:30PM</td>
+                </tr>
+                <tr>
+                  <td>Teacher3</td>
+                  <td>Masters</td>
+                  <td>2012</td>
+                  <td>10:00AM - 03:00PM</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="content-block course-2">
+            <h3 style="margin-bottom: 10px">Courses</h3>
+
+            <a href="JS.html">Javascript</a>
+            <a href="HTML.html">HTML</a>
+            <a href="CSS.html">CSS</a>
+            <a href="SW.html">Service Workers</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- scripts -->
+    <script>
+      var log1a = document.querySelector("#log1-a");
+      var log1b = document.querySelector("#log1-b");
+      var log2 = document.querySelector("#log2");
+      var log2b = document.querySelector("#log2b");
+      var log3 = document.querySelector("#log3");
+      var log4 = document.querySelector("#log4");
+
+      //   Task 01
+      // ------------------------------------------------------------------------
+      //Variables using var keyword – They are scoped within the function in
+      //   which they are declared. Different data type are available like number, string, boolean, date etc.
+      function helloFunctionScopedVariables() {
+        var a = 1;
+        var b = "Hello Student";
+        var c = true;
+        var d = new Date();
+        if (a >= 1) {
+          var e = 2;
+        }
+        console.log("FUNCTION SCOPED");
+        console.log(a);
+        a = e;
+        let arr = [a, b, c, d, e];
+        arr.map((ele) => console.log(ele));
+        log1a.insertAdjacentHTML(
+          "afterbegin",
+          `<h2 style="text-align:center">Console output 1</h2>${arr.map(
+            (element) => `<li>${element}</li>`
+          )}`
+        );
+      }
+      //Variables using let and const keywords - They are scoped withing the
+      //   braces “{“ “}”
+      function helloBracesScopedVariables() {
+        const PI = 1.421; //Once assigned, its value can never be modified
+        let a = 1;
+        let b = "Hello Student";
+        let c = true;
+        let d = new Date();
+        console.log("BRACES SCOPED");
+        if (a >= 1) {
+          let e = 2;
+          console.log(e);
+          //   Lab#1 HTML, JS, and CSS fundamentals SSUET/QR/114
+          //   SWE-315 Web Engineering
+        }
+        let arr = [a, b, c, d];
+
+        log1b.innerHTML = `<h2 style="text-align:center">Console output 2</h2>${arr.map(
+          (element) => `<li>${element}</li>`
+        )}`;
+
+        // a = e; //Error – “e is not defined” as e is scoped within the braces
+        //   and not available outside of it
+      }
+      helloFunctionScopedVariables();
+      helloBracesScopedVariables();
+
+      // Task 02
+      // --------------------------------------------------------
+      const loginIdElement = document.querySelector("#loginId");
+      const passwordElement = document.querySelector("#password");
+      const rememberMeElement = document.querySelector("#rememberMe");
+
+      const inputs = [loginIdElement, passwordElement, rememberMeElement];
+
+      //Sequential looping over the elements array using for loop
+      for (let i = 0; i < inputs.length; i++) {
+        console.log(inputs[i].attributes["type"].value);
+        log2.insertAdjacentHTML(
+          "afterbegin",
+          `<li>${inputs[i].attributes["type"].value}</li>`
+        );
+
+        const inputObject = inputs[i];
+
+        //looping over object properties using for-in loop
+        for (let prop in inputObject) {
+          log2b.insertAdjacentHTML(
+            "afterbegin",
+            `<li>${prop}</li><li>${inputObject[prop]}</li>`
+          );
+        }
+
+        //looping over object properties using for-of loop
+        for (let propertyValue of inputObject.getAttributeNames()) {
+          console.log(propertyValue);
+        }
+      }
+
+      // --------------------------------------------------------
+
+      // Task 03
+
+      // --------------------------------------------------------
+      //Define a teacher object using literal syntax
+      let teacher = {
+        id: 123,
+        name: "teacher1",
+        age: 35,
+        class: "CS",
+        dob: new Date(1986, 10, 10),
+        isGoldMedalist: true,
+      };
+
+      //Define multiple student objects with the help of a loop
+      let students = []; //Start with empty list of students
+      for (let s = 0; s < 10; s++) {
+        let student = {
+          id: s + 1,
+          name: "student" + (s + 1),
+          age: 19 + s,
+          class: "HTML,CSS,JS",
+          dob: new Date(2002 + s, 10, 10),
+          isGoldMedalist: false,
+        };
+        students.push(student); //insert newly created student into students array using array’s method push
+      }
+
+      //function is created using function expression. Functions are objects like other normal objects
+      let printTeacherName = function (teacher, noOfTimes) {
+        let t = 1;
+        while (t++ <= noOfTimes) {
+          console.log(teacher.name);
+          log3.insertAdjacentHTML("afterbegin", `<li>${teacher.name}</li>`);
+        }
+      };
+
+      console.log(printTeacherName.name);
+      log3.insertAdjacentHTML(
+        "afterbegin",
+        `<li>${printTeacherName.name}</li>`
+      );
+
+      printTeacherName(teacher, 3);
+      printTotalStudentsLength();
+
+      //function is created using arrow syntax.
+      const calculateStudentsCombinedAge = () => {
+        let studentsCombinedAge = 0;
+        for (let s = 0; s < students.length; s++) {
+          studentsCombinedAge += students[s].age;
+        }
+        return studentsCombinedAge;
+      };
+
+      console.log(calculateStudentsCombinedAge.name);
+      log3.insertAdjacentHTML(
+        "afterbegin",
+        `<li>${calculateStudentsCombinedAge.name}</li>`
+      );
+
+      let combinedStudentsAge = calculateStudentsCombinedAge();
+      console.log(combinedStudentsAge);
+      log3.insertAdjacentHTML("afterbegin", `<li>${combinedStudentsAge}</li>`);
+
+      //function is created using declaration syntax
+      function printTotalStudentsLength() {
+        console.log(students.length);
+        log3.insertAdjacentHTML("afterbegin", `<li>${students.length}</li>`);
+      }
+
+      console.log(printTotalStudentsLength.name);
+      log3.insertAdjacentHTML(
+        "afterbegin",
+        `<li>${printTotalStudentsLength.name}</li>`
+      );
+
+      // --------------------------------------------------------
+
+      // Task 04
+
+      // --------------------------------------------------------
+      //This function will be executed whenever the value is changed in the textbox, and will log old and new values for textbox
+      function valueIsChanged(e) {
+        console.log(`Current value is: ${e.value}`);
+        log4.innerHTML = `Current value is: ${
+          e.value
+        } <br> Time: ${logCurrentDateTime()}`;
+      }
+
+      //This function will be executed whenever the button is clicked, and will log the current date and time using DateTime object’s now() function
+      function logCurrentDateTime() {
+        return new Date();
+      }
+    </script>
+  </body>
+</html>
