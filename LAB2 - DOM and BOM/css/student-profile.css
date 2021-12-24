@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+*:focus {
+  outline: 0;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  height: 10%;
+  background-color: #5fbd83;
+  color: white;
+}
+
+.uni-content {
+  height: 40%;
+  display: flex;
+}
+
+.content-right,
+.content-left {
+  flex: 1;
+  position: relative;
+}
+#list {
+  outline: none;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-top: 20px;
+}
+#list > select {
+  padding: 10px;
+  background-color: whitesmoke;
+}
+.paragraph {
+  position: absolute;
+  height: 90%;
+  width: 90%;
+}
+.img-div {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url(../assets/person.png);
+  background-size: cover;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 12px 0 rgba(0, 0, 0, 0.19);
+}
+
+.userinfo-div > p {
+  float: right;
+}
+.userinfo-div > label {
+  font-weight: bold;
+  text-align: right;
+  clear: both;
+  float: left;
+  margin-right: 400px;
+  margin-bottom: 10px;
+}
+.form-div {
+  height: 50%;
+  display: flex;
+}
+.form-left {
+  flex: 2;
+  position: relative;
+}
+.form-left > table {
+  position: absolute;
+  width: 90%;
+  text-align: center;
+}
+.form-right {
+  flex: 1;
+  /* background-color: yellow; */
+  flex-direction: column;
+}
+.form-right > input {
+  width: 50%;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #7a4c9e;
+  color: white;
+  border: 1px solid;
+  transition: 300ms ease-in-out;
+}
+.remove-btn {
+  background: #ed5e68 !important;
+}
+.remove-btn:hover {
+  border: 1px solid #ed5e68 !important;
+  background: white !important;
+  color: #ed5e68 !important;
+}
+.form-right > input:hover {
+  border: 1px solid #7a4c9e;
+  background: white;
+  color: #7a4c9e;
+}
+
+.courses > tbody {
+  display: block;
+  overflow: auto;
+  height: 200px;
+  width: 100%;
+  padding: 0px 10px;
+  background-color: whitesmoke;
+}
+tr:hover {
+  background-color: white;
+}
+.courses > thead > tr {
+  display: block;
+  background-color: #7a4c9e;
+  padding: 10px;
+  color: white;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row > td {
+  width: 20%;
+  padding: 4px 0px;
+}
+.courses > thead > tr > th {
+  padding: 0px 65px;
+}
