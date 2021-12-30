@@ -1,0 +1,14 @@
+.student-details {
+  border-left: 1px solid rgb(141, 141, 141);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+h2 {
+  margin-bottom: 40px;
+}
+p {
+  font-size: 18px;
+}
