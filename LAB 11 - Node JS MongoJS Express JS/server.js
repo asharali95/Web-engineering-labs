@@ -3,7 +3,6 @@ const app = require("./app");
 require("dotenv").config({
   path: "./config.env",
 });
-//mongo DB connection
 const mongoose = require("mongoose");
 const DB = process.env.MONGO_STRING.replace(
   "<password>",
