@@ -7,12 +7,12 @@ var courseInstance = new Course(
   "Introduction to Web Engineering",
   "3+1"
 );
-var universityInstance = new 
-University("Sir Syed University", "SSUET LOGO");
+var universityInstance = new University("Sir Syed University", "SSUET LOGO");
 var studentInstance = new Student(
-  163,"Asim Ansari","30-7-1997",
+  164,
+  "Rohail Naveed",
+  "30-7-1997",
   courseInstance
 );
-studentInstance.belongsToUniversity
-(universityInstance);
+studentInstance.belongsToUniversity(universityInstance);
 studentInstance.enroll();

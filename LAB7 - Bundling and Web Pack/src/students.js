@@ -1,6 +1,6 @@
 const student = {
-  name: "Syed Ashar Ali",
-  rollNo: "2019-SE-200",
+  name: "Rohail Naveed",
+  rollNo: "2019-SE-164",
   semester: 6,
 };
 
