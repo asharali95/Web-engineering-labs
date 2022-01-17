@@ -15,12 +15,7 @@ export default function StudentDetails({
       <Grid container spacing={2}>
         <Grid item>
           <Card sx={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              height="200"
-              src={imgSrc}
-              // image={require(`${imgSrc}`)}
-            />
+            <CardMedia component="img" height="200" src={imgSrc} />
           </Card>
         </Grid>
         <Grid item xs={12} sm container>
@@ -40,7 +35,7 @@ export default function StudentDetails({
               <Typography sx={{ cursor: "pointer" }} variant="body2">
                 <b>Current GPA: </b>
                 {currentGPA}
-              </Typography>
+              </Typography>{" "}
             </Grid>
           </Grid>
         </Grid>

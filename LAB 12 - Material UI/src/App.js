@@ -1,6 +1,4 @@
-import StudentDetails from "./Components/StudentDetails";
 import StudentGrid from "./Components/StudentGrid";
-import logo from "./logo.svg";
 import "./App.css";
 function App() {
   return (
@@ -10,5 +8,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
